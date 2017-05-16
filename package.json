@@ -1,8 +1,13 @@
 {
   "name": "header-parser",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  // Add description for API function
+  "description": "Lets you get the IP, language & OS for the browser making the request.",
+  "main": "server.js", // Set main to "server.js"
+  "engines": {
+    "node": "4.7.3",
+    "npm": "2.15.11"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
