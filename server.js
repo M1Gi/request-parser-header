@@ -4,7 +4,7 @@ var app = express(); // Create an Express App
 /* Set the Entry Point and store it in the var 'routes'. 
 -> The Entry Point is the JS file (index.js) that will be invoked when consumers of your 
 module 'require()' it (this file includes the main logic for your module). */
-var routes = require('./app/routes/index.js');
+var routes = require('./app/routes/index');
 
 app.use('/', routes);
 
